@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+void main() {
+int m[100][100],mn[100][100],i,j,add;
+for(i=0;i<=3;i++)
+{for(j=0;j<=3;j++)
+{printf("array1:");
+scanf("%d",&m[i][j]);}}
+
+
+for(i=0;i<=3;i++)
+{for(j=0;j<=3;j++)
+{printf("array2:");
+  scanf("%d",&mn[i][j]);}}
+
+printf("array1:\n");
+for(i=0;i<=3;i++)
+{for(j=0;j<=3;j++)
+{printf("%d\t",m[i][j]);}
+printf(" \n");}
+
+printf("array2:\n");
+for(i=0;i<=3;i++)
+{for(j=0;j<=3;j++)
+{printf("%d\t",mn[i][j]);}
+printf(" \n");}
+}
